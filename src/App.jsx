@@ -2,13 +2,12 @@
 import Producto from "./components/Producto";
 import "./App.css";
 
-// Importar imágenes guardadas en src/assets/
-// Si no tienes imágenes aún, puedes usar enlaces URL externos como prueba
-import labialImg from "./assets/labial.png";
-import cremaImg from "./assets/crema.png";
-import perfumeImg from "./assets/perfume.png";
-import brochasImg from "./assets/brochas.png";
-import sombraImg from "./assets/sombra.png";
+// URLs de imágenes de prueba (placeholders)
+const labialImg = "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=400";
+const cremaImg = "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400";
+const perfumeImg = "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400";
+const brochasImg = "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400";
+const sombraImg = "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400";
 
 const productos = [
   {
