@@ -6,6 +6,5 @@ export default function Producto() {
       <p>Producto para catálogo de belleza.</p>
       <strong>$18.000</strong>
     </article>
-
   );
 }
